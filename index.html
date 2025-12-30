@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="7.css">
+</head>
+<body>
+
+<section class="checkout">
+
+  <h2>Checkout / Payment</h2>
+
+  <form class="checkout-form">
+
+    <!-- Customer Info -->
+    <h3>Customer Information</h3>
+
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email">
+    <input type="text" placeholder="Phone Number">
+    <textarea placeholder="Shipping Address"></textarea>
+
+    <!-- Order Summary -->
+    <h3>Order Summary</h3>
+
+    <label>Items Total ($)</label>
+    <input type="number" placeholder="Enter items total">
+
+    <label>Shipping ($)</label>
+    <input type="number" placeholder="Enter shipping cost">
+
+    <label>Grand Total ($)</label>
+    <input type="number" placeholder="Enter total amount">
+
+    <!-- Payment Method -->
+    <h3>Payment Method</h3>
+
+    <label class="radio">
+      <input type="radio" name="payment"> Cash on Delivery
+    </label>
+
+    <label class="radio">
+      <input type="radio" name="payment"> Credit / Debit Card
+    </label>
+
+    <label class="radio">
+      <input type="radio" name="payment"> ABA / Bank Transfer
+    </label>
+
+    <!-- Submit -->
+    <button type="submit">Confirm Payment</button>
+
+  </form>
+
+</section>
+
+</body>
+</html>
